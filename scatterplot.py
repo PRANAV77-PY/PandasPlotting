@@ -1,0 +1,18 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('D:\Software engg Professional training\Python Basics\Python Pandas\pandas plot\data1.csv')
+
+df.plot(kind = 'scatter', x = 'Duration',y = 'Calories')
+
+plt.show()
+
+#scatter second plot
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('D:\Software engg Professional training\Python Basics\Python Pandas\pandas plot\data1.csv')
+
+df.plot(kind = 'scatter',x = 'duration',y = 'Maxpulse')
+
+plt.show()
